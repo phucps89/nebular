@@ -1,0 +1,10 @@
+{
+  "/api": {
+    "target": "https://apigw.seldatdirect.com/qc/sel2b-nab/api/api/v1",
+    "secure": false,
+    "pathRewrite": {
+      "^/api": ""
+    },
+    "changeOrigin": true
+  }
+}
